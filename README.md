@@ -35,7 +35,7 @@ Dataset Attributes:
 - gdpp : The GDP per capita. Calculated as the Total GDP divided by the total population.
 
 
-3. Clustering: 
+Clustering: 
 
  a-K-Means :
 
