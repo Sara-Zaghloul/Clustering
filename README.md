@@ -13,7 +13,6 @@ The analysis aims to identify patterns in countries’ economic, health, and tra
 Clustering is performed using two approaches:
 
 1. **Feature Combination**: Aggregating key indicators into `Health`, `Trade`, and `Finance` scores.  
-
 2. **PCA Data**: Reducing dimensionality using Principal Component Analysis (PCA).
 
 
@@ -25,28 +24,18 @@ https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data?
 Dataset Attributes:
     
 - country : Name of the country
-
 - child_mort : Death of children under 5 years of age per 1000 live births
-
 - exports : Exports of goods and services per capita. Given as %age of the GDP per capita
-
 - health : Total health spending per capita. Given as %age of GDP per capita
-
 - imports : Imports of goods and services per capita. Given as %age of the GDP per capita
-
 - Income : Net income per person
-
 - Inflation : The measurement of the annual growth rate of the Total GDP
-
 - life_expec : The average number of years a new born child would live
-
 - total_fer : The number of children that would be born to each woman
-
 - gdpp : The GDP per capita. Calculated as the Total GDP divided by the total population.
 
 
 3. Clustering: 
-
 
  a-K-Means :
 
@@ -55,7 +44,6 @@ Dataset Attributes:
     - After clustering, you correctly labeled clusters based on income & child_mort.
 
     - Choropleth maps visualize the clusters per country
-
 
  b-DBSCAN :
 
